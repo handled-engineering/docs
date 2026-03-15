@@ -11,32 +11,12 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Overview",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "mock-servers/quickstart",
-              "mockworld-tests/quickstart"
-            ]
-          },
-          {
-            "group": "Mock Servers",
-            "pages": [
-              "mock-servers/overview",
-              "mock-servers/how-it-works",
-              "mock-servers/stateful-mocks",
-              "mock-servers/seeding-data"
-            ]
-          },
-          {
-            "group": "MockWorld Tests",
-            "pages": [
-              "mockworld-tests/overview",
-              "mockworld-tests/the-paradigm",
-              "mockworld-tests/observe",
-              "mockworld-tests/assert"
+              "index"
             ]
           },
           {
@@ -47,22 +27,24 @@
               "guides/ai-agents",
               "guides/ci-cd"
             ]
-          },
-          {
-            "group": "SDKs",
-            "pages": [
-              "sdks/ruby",
-              "sdks/python",
-              "sdks/typescript"
-            ]
           }
         ]
       },
       {
-        "tab": "Services",
+        "tab": "Mock Servers",
         "groups": [
           {
-            "group": "Supported Services",
+            "group": "Mock Servers",
+            "pages": [
+              "mock-servers/overview",
+              "mock-servers/quickstart",
+              "mock-servers/how-it-works",
+              "mock-servers/stateful-mocks",
+              "mock-servers/seeding-data"
+            ]
+          },
+          {
+            "group": "Services",
             "pages": [
               "services/overview",
               "services/stripe",
@@ -74,17 +56,35 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "MockWorld Tests",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "MockWorld Tests",
             "pages": [
-              "api-reference/introduction"
+              "mockworld-tests/overview",
+              "mockworld-tests/quickstart",
+              "mockworld-tests/the-paradigm",
+              "mockworld-tests/observe",
+              "mockworld-tests/assert"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "SDKs",
+        "groups": [
+          {
+            "group": "SDKs",
+            "pages": [
+              "sdks/ruby",
+              "sdks/python",
+              "sdks/typescript"
             ]
           },
           {
-            "group": "Endpoints",
+            "group": "API Reference",
             "pages": [
+              "api-reference/introduction",
               "api-reference/endpoint/create-world",
               "api-reference/endpoint/mock-server",
               "api-reference/endpoint/observations",
@@ -103,7 +103,7 @@
         },
         {
           "anchor": "GitHub",
-          "href": "https://github.com/AginSquash/mockworld-ruby",
+          "href": "https://github.com/nsakapeter/mockworld-ruby",
           "icon": "github"
         }
       ]
@@ -129,7 +129,7 @@
   "footer": {
     "socials": {
       "x": "https://x.com/mokaborhq",
-      "github": "https://github.com/AginSquash/mockworld-ruby",
+      "github": "https://github.com/nsakapeter/mockworld-ruby",
       "linkedin": "https://linkedin.com/company/mokra-ai"
     }
   },
